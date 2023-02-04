@@ -1,0 +1,5 @@
+This is my project with the purpose of learning to initialize a whole web dev project with create-react-app and it has the following key topics:
+- use git locally and with remote repository
+- publish webpage on a personal domain
+- display personal motivation and information on a web app with react
+- revisit basics of JS, React, HTML, CSS

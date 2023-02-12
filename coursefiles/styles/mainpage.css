@@ -1,0 +1,14 @@
+h2 {
+    color: orange;
+}
+
+table {
+    background-color: lightgray;
+}
+
+h1 {
+    font-weight: 400;
+    text-align: center;
+    text-decoration: line-through orange dashed 3px;
+    letter-spacing: 10px;
+}

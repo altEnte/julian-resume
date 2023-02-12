@@ -55,6 +55,73 @@
         </ol>
     </div>
 
+    <!-- <div>
+
+        <p>Entity Type Codes for displaying special characters are linked <a href="https://html.spec.whatwg.org/multipage/named-characters.html">here</a></p>
+
+        <p>This will lead to funny stuff <sub>like</sub> <sup>this:</sup><h1>&#9731;</h1>
+        </p>
+    </div>
+
+    section>p{this is very easy}    Emmet helps to go for HTML shorcuts while coding
+    <section>
+        <p>This is very easy</p>
+    </section> 
+
+    <section>
+        <p>this is so easy</p>
+    </section> -->
+
+<h2> Table of abilities </h2>
+    <section>
+        <table>
+            <thead>
+                <tr>
+                    <!-- Rowspan gives us the possibility to increase the hight of a table element by a number of rows -->
+
+                    <!-- Colspan gives us the possibilty to increase the weight of a table element by a number of columns -->
+                    <th rowspan="2">Name</th>
+                    <th rowspan="2">Explanation</th>
+                    <th colspan="3">Cost</th>
+                </tr>
+                <tr>
+                    <th>Mana</th>
+                    <th>Health</th>
+                    <th>Stamina</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Life change</td>
+                    <td>Put the energy into something that is not simply done and needs special time outside of work. It is usually connected to positive change and needs extra attention and a health and stamina bar of at least 75% each. Life change lasts 3h each time activated.</td>
+                    <td>40%</td>
+                    <td>0%</td>
+                    <td>0%</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h3>Add a new ability:</h3>
+            <form>
+                <div>
+                    <label for="Name">Enter Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <label for="Explanation">Enter Explanation:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <label for="Mana">Enter Mana:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <label for="Health">Enter Health:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <label for="Stamina">Enter Stamina:</label>
+                </div>
+                <div>
+                    <input id="Name" name="keyword" type="text">
+                    <input id="Explanation" name="explanation" type="textarea">
+                    <input id="Mana" name="manaval" type="number" min="0" max="100" value="25">
+                    <input id="Health" name="healthval" type="number" min="0" max="100" value="25">
+                    <input id="Stamina" name="staminaval" type="number" min="0" max="100" value="25">&nbsp;&nbsp;&nbsp;<button>Submit ability</button>
+                </div>
+            </form>
+    </section>
+
 </body>
 
 

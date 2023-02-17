@@ -1,0 +1,38 @@
+h2 {
+    color: orange;
+}
+
+table {
+    background-color: lightgray;
+}
+
+h1 {
+    font-weight: 400;
+    text-align: center;
+    text-decoration: line-through orange dashed 3px;
+    letter-spacing: 10px;
+}
+
+* {
+    font-family: Verdana, serif;
+}
+
+/* img {
+    object-position: center;
+} */
+
+/* #pink {
+    background-color: pink;
+}
+
+.blu {
+    background-color: darkblue;
+} */
+
+div > p {
+    background-color: lightgray;
+}
+
+/* div {
+    background-color: pink;
+} */

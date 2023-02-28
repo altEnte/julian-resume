@@ -1,0 +1,9 @@
+
+.nav-home {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-home button {
+    background-color: pink;
+}

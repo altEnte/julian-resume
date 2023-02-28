@@ -234,3 +234,12 @@ body {
 .shrinkgrowstuff div:nth-of-type(3) {
     flex-grow: 2;
 }
+
+.nav-home {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-home button {
+    background-color: pink;
+}
